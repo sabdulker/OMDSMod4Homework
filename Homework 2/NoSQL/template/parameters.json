@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "name": {
-            "value": "@dbName"
+            "value": "cosmosdb17de68"
         },
         "location": {
-            "value": "westus3"
+            "value": "centralus"
         },
         "locationName": {
-            "value": "West US 3"
+            "value": "Central US"
         },
         "defaultExperience": {
             "value": "Core (SQL)"

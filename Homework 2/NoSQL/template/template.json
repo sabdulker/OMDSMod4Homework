@@ -25,14 +25,14 @@
             "kind": "GlobalDocumentDB",
             "type": "Microsoft.DocumentDb/databaseAccounts",
             "name": "[parameters('name')]",
-            "location": "Central US",
+            "location": "[parameters('location')]",
             "properties": {
                 "databaseAccountOfferType": "Standard",
                 "locations": [
                     {
                         "id": "[concat(parameters('name'), '-', parameters('location'))]",
                         "failoverPriority": 0,
-                        "locationName": "Central US"
+                        "locationName": "[parameters('locationName')]"
                     }
                 ],
                 "backupPolicy": {
